@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Size</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Size 3</string>
+			<key>items</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>1.0 mm</string>
+						<key>stones</key>
+						<string>45 Stones</string>
+						<key>carats</key>
+						<string>0.225 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>1.2 mm</string>
+						<key>stones</key>
+						<string>38 Stones</string>
+						<key>carats</key>
+						<string>0.285 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>1.3 mm</string>
+						<key>stones</key>
+						<string>36 Stones</string>
+						<key>carats</key>
+						<string>0.36 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>1.5 mm</string>
+						<key>stones</key>
+						<string>33 Stones</string>
+						<key>carats</key>
+						<string>0.495 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>1.7 mm</string>
+						<key>stones</key>
+						<string>30 Stones</string>
+						<key>carats</key>
+						<string>0.6 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>1.8 mm</string>
+						<key>stones</key>
+						<string>27 Stones</string>
+						<key>carats</key>
+						<string>0.675 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.0 mm</string>
+						<key>stones</key>
+						<string>25 Stones</string>
+						<key>carats</key>
+						<string>0.75 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.1 mm</string>
+						<key>stones</key>
+						<string>24 Stones</string>
+						<key>carats</key>
+						<string>0.84 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.2 mm</string>
+						<key>stones</key>
+						<string>23 Stones</string>
+						<key>carats</key>
+						<string>0.92 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.4 mm</string>
+						<key>stones</key>
+						<string>22 Stones</string>
+						<key>carats</key>
+						<string>1.1 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.5 mm</string>
+						<key>stones</key>
+						<string>21 Stones</string>
+						<key>carats</key>
+						<string>1.26 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.7 mm</string>
+						<key>stones</key>
+						<string>20 Stones</string>
+						<key>carats</key>
+						<string>1.4 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.8 mm</string>
+						<key>stones</key>
+						<string>19 Stones</string>
+						<key>carats</key>
+						<string>1.52 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.0 mm</string>
+						<key>stones</key>
+						<string>19 Stones</string>
+						<key>carats</key>
+						<string>1.9 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.1 mm</string>
+						<key>stones</key>
+						<string>18 Stones</string>
+						<key>carats</key>
+						<string>1.98 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.2 mm</string>
+						<key>stones</key>
+						<string>17 Stones</string>
+						<key>carats</key>
+						<string>2.04 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.4 mm</string>
+						<key>stones</key>
+						<string>15 Stones</string>
+						<key>carats</key>
+						<string>2.25 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.6 mm</string>
+						<key>stones</key>
+						<string>15 Stones</string>
+						<key>carats</key>
+						<string>2.55 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.8 mm</string>
+						<key>stones</key>
+						<string>15 Stones</string>
+						<key>carats</key>
+						<string>3 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>4.1 mm</string>
+						<key>stones</key>
+						<string>14 Stones</string>
+						<key>carats</key>
+						<string>3.5 Carats</string>
+					</dict>
+				</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Size 4</string>
+			<key>items</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>1.0 mm</string>
+						<key>stones</key>
+						<string>45 Stones</string>
+						<key>carats</key>
+						<string>0.225 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>1.2 mm</string>
+						<key>stones</key>
+						<string>38 Stones</string>
+						<key>carats</key>
+						<string>0.285 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>1.3 mm</string>
+						<key>stones</key>
+						<string>36 Stones</string>
+						<key>carats</key>
+						<string>0.36 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>1.5 mm</string>
+						<key>stones</key>
+						<string>33 Stones</string>
+						<key>carats</key>
+						<string>0.495 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>1.7 mm</string>
+						<key>stones</key>
+						<string>30 Stones</string>
+						<key>carats</key>
+						<string>0.6 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>1.8 mm</string>
+						<key>stones</key>
+						<string>27 Stones</string>
+						<key>carats</key>
+						<string>0.675 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>2.0 mm</string>
+						<key>stones</key>
+						<string>25 Stones</string>
+						<key>carats</key>
+						<string>0.75 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>2.1 mm</string>
+						<key>stones</key>
+						<string>24 Stones</string>
+						<key>carats</key>
+						<string>0.84 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 4</string>
+						<key>diameter</key>
+						<string>2.2 mm</string>
+						<key>stones</key>
+						<string>23 Stones</string>
+						<key>carats</key>
+						<string>0.92 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.4 mm</string>
+						<key>stones</key>
+						<string>22 Stones</string>
+						<key>carats</key>
+						<string>1.1 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.5 mm</string>
+						<key>stones</key>
+						<string>21 Stones</string>
+						<key>carats</key>
+						<string>1.26 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.7 mm</string>
+						<key>stones</key>
+						<string>20 Stones</string>
+						<key>carats</key>
+						<string>1.4 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>2.8 mm</string>
+						<key>stones</key>
+						<string>19 Stones</string>
+						<key>carats</key>
+						<string>1.52 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.0 mm</string>
+						<key>stones</key>
+						<string>19 Stones</string>
+						<key>carats</key>
+						<string>1.9 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.1 mm</string>
+						<key>stones</key>
+						<string>18 Stones</string>
+						<key>carats</key>
+						<string>1.98 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.2 mm</string>
+						<key>stones</key>
+						<string>17 Stones</string>
+						<key>carats</key>
+						<string>2.04 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.4 mm</string>
+						<key>stones</key>
+						<string>15 Stones</string>
+						<key>carats</key>
+						<string>2.25 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.6 mm</string>
+						<key>stones</key>
+						<string>15 Stones</string>
+						<key>carats</key>
+						<string>2.55 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>3.8 mm</string>
+						<key>stones</key>
+						<string>15 Stones</string>
+						<key>carats</key>
+						<string>3 Carats</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Size 3</string>
+						<key>diameter</key>
+						<string>4.1 mm</string>
+						<key>stones</key>
+						<string>14 Stones</string>
+						<key>carats</key>
+						<string>3.5 Carats</string>
+					</dict>
+				</array>
+		</dict>
+	</array>
+</dict>
+</plist>
