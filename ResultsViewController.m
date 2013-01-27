@@ -14,7 +14,7 @@
 
 @implementation ResultsViewController
 
-@synthesize stoneResultsLabel = _stoneResultsLabel, caratResultsLabel = _caratResultsLabel;
+//@synthesize stoneResultsLabel = _stoneResultsLabel, caratResultsLabel = _caratResultsLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +29,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.stoneResultsLabel.text = [NSString stringWithFormat:@"%d stones", self.stoneResults];
+    self.caratResultsLabel.text = [NSString stringWithFormat:@"%.3f", self.caratResults];
 }
 
 - (void)didReceiveMemoryWarning

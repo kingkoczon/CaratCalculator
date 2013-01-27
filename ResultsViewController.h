@@ -10,6 +10,8 @@
 
 @interface ResultsViewController : UIViewController
 
+@property (assign, nonatomic) NSInteger stoneResults;
+@property (assign, nonatomic) float caratResults;
 @property (weak, nonatomic) IBOutlet UILabel *stoneResultsLabel;
 @property (weak, nonatomic) IBOutlet UILabel *caratResultsLabel;
 

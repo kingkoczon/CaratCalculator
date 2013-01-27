@@ -19,7 +19,7 @@
 		AE5BA27E16AB3CB300078313 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5BA27C16AB3CB300078313 /* MainStoryboard.storyboard */; };
 		AE5BA28E16AB3CEC00078313 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5BA28D16AB3CEC00078313 /* CalculatorViewController.m */; };
 		AE5BA29C16AB578800078313 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5BA29B16AB578800078313 /* ResultsViewController.m */; };
-		AE5BA2A216AB58AF00078313 /* calculations.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE5BA2A116AB58AF00078313 /* calculations.plist */; };
+		AED362ED16B3095C002FD113 /* calculations.plist in Resources */ = {isa = PBXBuildFile; fileRef = AED362EC16B3095C002FD113 /* calculations.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		AE5BA28D16AB3CEC00078313 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorViewController.m; path = ../CalculatorViewController.m; sourceTree = "<group>"; };
 		AE5BA29A16AB578800078313 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = ../ResultsViewController.h; sourceTree = "<group>"; };
 		AE5BA29B16AB578800078313 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = ../ResultsViewController.m; sourceTree = "<group>"; };
-		AE5BA2A116AB58AF00078313 /* calculations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = calculations.plist; sourceTree = "<group>"; };
+		AED362EC16B3095C002FD113 /* calculations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = calculations.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 				AE5BA27616AB3CB300078313 /* Default.png */,
 				AE5BA27816AB3CB300078313 /* Default@2x.png */,
 				AE5BA27A16AB3CB300078313 /* Default-568h@2x.png */,
-				AE5BA2A116AB58AF00078313 /* calculations.plist */,
+				AED362EC16B3095C002FD113 /* calculations.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 				AE5BA27916AB3CB300078313 /* Default@2x.png in Resources */,
 				AE5BA27B16AB3CB300078313 /* Default-568h@2x.png in Resources */,
 				AE5BA27E16AB3CB300078313 /* MainStoryboard.storyboard in Resources */,
-				AE5BA2A216AB58AF00078313 /* calculations.plist in Resources */,
+				AED362ED16B3095C002FD113 /* calculations.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
