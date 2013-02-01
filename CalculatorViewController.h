@@ -20,7 +20,4 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *calculateButton;
 
--(void)handleItemsArray;
--(void)handleItemsDictionary;
-
 @end

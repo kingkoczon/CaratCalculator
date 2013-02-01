@@ -36,16 +36,15 @@
     NSString *calculationsFile = [[NSBundle mainBundle] pathForResource:@"calculations" ofType:@"plist"];
     _calculationsResults = [NSDictionary dictionaryWithContentsOfFile:calculationsFile];
     
-    _ringSizesArray = [_calculationsResults valueForKey:@"name"];
-    
-    
-    for (NSString *key in _calculationsResults)
-    {
-        if ([key isEqualToString:@"diameter"]) {
-            NSLog(@"diameter: %@", [_calculationsResults valueForKey:key]);
-        }        // do something with key and obj
+    for (NSDictionary *mainDict in _calculationsResults) {
+        for (NSString *items in mainDict) {
+            _ringSizesArray = [items valueForKey:@"name"];
+        }
+        
     }
     
+    
+       
                        
                        
     //initWithObjects:@"3", @"3.5", @"4", @"4.5", @"5", @"5.5", @"6", @"6.5", @"7", @"7.5", @"8", @"8.5", nil];
