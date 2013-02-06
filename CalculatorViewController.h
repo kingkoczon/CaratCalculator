@@ -13,10 +13,10 @@
 @property (nonatomic, retain) IBOutlet UIPickerView *ringSizePicker;
 @property (nonatomic, retain) IBOutlet UIPickerView *stoneDiameterPicker;
 
-@property (nonatomic, strong) NSArray *ringSizesArray;
-@property (nonatomic, strong) NSArray *stoneDiameterArray;
+@property (nonatomic, strong) NSMutableArray *ringSizesArray;
+@property (nonatomic, strong) NSMutableArray *stoneDiameterArray;
 
-@property (nonatomic, strong) NSDictionary *calculationsResults;
+@property (nonatomic, strong) NSArray *calculationsResults;
 
 @property (weak, nonatomic) IBOutlet UIButton *calculateButton;
 

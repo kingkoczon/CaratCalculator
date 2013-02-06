@@ -34,13 +34,29 @@
     [super viewDidLoad];
     
     NSString *calculationsFile = [[NSBundle mainBundle] pathForResource:@"calculations" ofType:@"plist"];
-    _calculationsResults = [NSDictionary dictionaryWithContentsOfFile:calculationsFile];
+    _calculationsResults = [NSArray arrayWithContentsOfFile:calculationsFile];
     
     for (NSDictionary *mainDict in _calculationsResults) {
-        for (NSString *items in mainDict) {
-            _ringSizesArray = [items valueForKey:@"name"];
-        }
+        //for (NSDictionary *subDict in mainDict) {
+            for (NSString *items in mainDict) {
+                NSLog(@"Item found.");
+                [_ringSizesArray addObject:items];
+                 NSLog(@"Array is: %@", _ringSizesArray);
+            }
+       
         
+        for (NSDictionary *subDict in mainDict) {
+            for (NSDictionary *nextDict in subDict) {
+                for (NSString *specs in nextDict) {
+                    if ([specs isEqualToString:@"diameter"]) {
+                        [_stoneDiameterArray addObject:specs];
+                    }
+                    //[nextDict valueForKey:specs];
+               }
+                
+            }
+        }
+        //}
     }
     
     
