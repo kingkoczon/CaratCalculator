@@ -20,6 +20,24 @@
 //@synthesize calculateButton = _calculateButton;
 //@synthesize calculationsResults = _calculationsResults;
 
+@synthesize ringSizesArray = _ringSizesArray;
+-(NSMutableArray *)ringSizesArray {
+    if(_ringSizesArray == nil){
+        _ringSizesArray = [[NSMutableArray alloc] init];
+    }
+    return _ringSizesArray;
+}
+
+@synthesize calculationsResults = _calculationsResults;
+-(NSArray *)calculationsResults {
+    if(_calculationsResults == nil){
+        NSString *calculationsFile = [[NSBundle mainBundle] pathForResource:@"calculations" ofType:@"plist"];
+        _calculationsResults = [NSArray arrayWithContentsOfFile:calculationsFile];
+    }
+    return _calculationsResults;
+}
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,21 +50,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSString *calculationsFile = [[NSBundle mainBundle] pathForResource:@"calculations" ofType:@"plist"];
-    _calculationsResults = [NSArray arrayWithContentsOfFile:calculationsFile];
-    
-    for (NSDictionary *mainDict in _calculationsResults) {
+
+    for (NSDictionary *mainDict in self.calculationsResults) {
         //for (NSDictionary *subDict in mainDict) {
             for (NSString *items in mainDict) {
-                NSLog(@"Item found.");
-                [_ringSizesArray addObject:items];
-                 NSLog(@"Array is: %@", _ringSizesArray);
+                NSLog(@"Item found: %@",items);
+                [self.ringSizesArray addObject:items];
+                 NSLog(@"Array is: %@", self.ringSizesArray);
             }
        
         
-        for (NSDictionary *subDict in mainDict) {
-            for (NSDictionary *nextDict in subDict) {
+        for (NSString *key in mainDict) {
+            NSDictionary *subDict2 = [mainDict objectForKey:key];
+            for (NSString *nextDict in subDict2) {
                 for (NSString *specs in nextDict) {
                     if ([specs isEqualToString:@"diameter"]) {
                         [_stoneDiameterArray addObject:specs];
