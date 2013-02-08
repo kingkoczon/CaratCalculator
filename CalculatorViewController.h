@@ -16,7 +16,7 @@
 @property (nonatomic, strong) NSMutableArray *ringSizesArray;
 @property (nonatomic, strong) NSMutableArray *stoneDiameterArray;
 
-@property (nonatomic, strong) NSArray *calculationsResults;
+@property (nonatomic, strong) NSDictionary *calculationsResults;
 
 @property (weak, nonatomic) IBOutlet UIButton *calculateButton;
 

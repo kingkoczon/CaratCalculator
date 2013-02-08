@@ -28,11 +28,19 @@
     return _ringSizesArray;
 }
 
+@synthesize stoneDiameterArray = _stoneDiameterArray;
+-(NSMutableArray *)stoneDiameterArray {
+    if(_stoneDiameterArray == nil){
+        _stoneDiameterArray = [[NSMutableArray alloc] init];
+    }
+    return _stoneDiameterArray;
+}
+
 @synthesize calculationsResults = _calculationsResults;
--(NSArray *)calculationsResults {
+-(NSDictionary *)calculationsResults {
     if(_calculationsResults == nil){
         NSString *calculationsFile = [[NSBundle mainBundle] pathForResource:@"calculations" ofType:@"plist"];
-        _calculationsResults = [NSArray arrayWithContentsOfFile:calculationsFile];
+        _calculationsResults = [NSDictionary dictionaryWithContentsOfFile:calculationsFile];
     }
     return _calculationsResults;
 }
@@ -51,39 +59,18 @@
 {
     [super viewDidLoad];
 
-    for (NSDictionary *mainDict in self.calculationsResults) {
-        //for (NSDictionary *subDict in mainDict) {
-            for (NSString *items in mainDict) {
-                NSLog(@"Item found: %@",items);
-                [self.ringSizesArray addObject:items];
-                 NSLog(@"Array is: %@", self.ringSizesArray);
-            }
-       
-        
-        for (NSString *key in mainDict) {
-            NSDictionary *subDict2 = [mainDict objectForKey:key];
-            for (NSString *nextDict in subDict2) {
-                for (NSString *specs in nextDict) {
-                    if ([specs isEqualToString:@"diameter"]) {
-                        [_stoneDiameterArray addObject:specs];
-                    }
-                    //[nextDict valueForKey:specs];
-               }
-                
-            }
+    NSMutableSet *diameterSet = [[NSMutableSet alloc] init];
+    
+    for (NSString *sizeKey in self.calculationsResults) {
+        [self.ringSizesArray addObject:sizeKey];
+        NSDictionary *sizeDict = [self.calculationsResults objectForKey:sizeKey];
+        for (NSString *diameterKey in sizeDict) {
+            [diameterSet addObject:diameterKey];
         }
-        //}
     }
-    
-    
-       
-                       
-                       
-    //initWithObjects:@"3", @"3.5", @"4", @"4.5", @"5", @"5.5", @"6", @"6.5", @"7", @"7.5", @"8", @"8.5", nil];
-   //_stoneDiameterArray = [[NSArray alloc] initWithObjects:@"1.0 mm", @"1.2 mm", @"1.3mm", @"1.5 mm", @"1.7 mm", @"1.8 mm", @"2.0 mm", @"2.1 mm", @"2.2 mm", @"2.4 mm", @"2.5 mm", @"2.7 mm", @"2.8 mm", @"3.0 mm", @"3.1 mm", @"3.2 mm", @"3.4 mm", @"3.6 mm", @"3.8 mm", @"4.1 mm", nil];
-	// Do any additional setup after loading the view.
-    
-    
+    self.stoneDiameterArray = [NSMutableArray arrayWithArray:[diameterSet allObjects]];
+    NSLog(@"ringSizesArray: %@",self.ringSizesArray);
+    NSLog(@"stoneDiameterArray: %@",self.stoneDiameterArray);
 
 }
 
